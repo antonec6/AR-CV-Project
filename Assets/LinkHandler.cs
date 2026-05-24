@@ -2,13 +2,24 @@ using UnityEngine;
 
 public class LinkHandler : MonoBehaviour
 {
-    public void OpenLinkedIn()
+    public GameObject fullCVDisplay; 
+    public GameObject skillsPanel; // New slot for your Skills UI
+
+    public void OpenLinkedIn() => Application.OpenURL("https://www.linkedin.com/in/meryem-nobatova-095459410"); 
+    public void OpenGitHub() => Application.OpenURL("https://github.com/Meryemmmn");
+
+    public void ToggleFullCV()
     {
-        Application.OpenURL("https://www.linkedin.com/in/meryem-nobatova-095459410"); 
+        if (fullCVDisplay != null) fullCVDisplay.SetActive(!fullCVDisplay.activeSelf);
     }
 
-    public void OpenGitHub()
+    public void ToggleSkills()
     {
-        Application.OpenURL("https://github.com/Meryemmmn");
+        if (skillsPanel != null)
+        {
+            skillsPanel.SetActive(!skillsPanel.activeSelf);
+            // Bonus: If you want the Full CV to close when Skills opens:
+            if (fullCVDisplay != null) fullCVDisplay.SetActive(false);
+        }
     }
 }
