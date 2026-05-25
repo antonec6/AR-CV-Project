@@ -595,6 +595,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1167976993}
+        m_TargetAssemblyTypeName: AssistantDialogueSystem, Assembly-CSharp
+        m_MethodName: ShowMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Opening contact interface...
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66004699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,6 +1038,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1167976993}
+        m_TargetAssemblyTypeName: AssistantDialogueSystem, Assembly-CSharp
+        m_MethodName: ShowMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Opening Audacity Tutorial Project...
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &160215116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1375,6 +1399,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1167976993}
+        m_TargetAssemblyTypeName: AssistantDialogueSystem, Assembly-CSharp
+        m_MethodName: ShowMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Launching GitHub Repository...
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &220241947
@@ -2720,6 +2756,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4404815182445390446, guid: 5d0706a208f61c54493f3ab79ee78c38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1995501483}
+    - targetCorrespondingSourceObject: {fileID: 4404815182445390446, guid: 5d0706a208f61c54493f3ab79ee78c38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1167976992}
     - targetCorrespondingSourceObject: {fileID: 4893860127406811294, guid: 5d0706a208f61c54493f3ab79ee78c38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2045349559}
@@ -2967,6 +3006,51 @@ MonoBehaviour:
   floatAmount: 0.01
   floatSpeed: 2
   appearDelay: 0
+--- !u!1 &1167976991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167976992}
+  - component: {fileID: 1167976993}
+  m_Layer: 0
+  m_Name: AssistantManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167976992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167976991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1270612718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1167976993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167976991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025c4046af3f30640bcb77c1d8ea2b2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssistantDialogueSystem
+  dialogueText: {fileID: 1934255150}
 --- !u!1 &1269038231
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,8 +3628,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3632,6 +3716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectLinkOpener
   dynamicRepoURL: https://github.com/mtaseva/Audacity-Web-App-Tutorial
   robotKyle: {fileID: 2128051711}
+  assistant: {fileID: 0}
 --- !u!114 &1831634679
 MonoBehaviour:
   m_ObjectHideFlags: 0

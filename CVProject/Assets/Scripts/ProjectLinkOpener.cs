@@ -8,6 +8,7 @@ public class ProjectLinkOpener : MonoBehaviour
 
     [Header("Assistant Reaction")]
     public GameObject robotKyle;
+    public AssistantDialogueSystem assistant;
 
     private bool isSpinning = false;
 
@@ -15,6 +16,13 @@ public class ProjectLinkOpener : MonoBehaviour
     {
         Application.OpenURL(dynamicRepoURL);
         Debug.Log("Launching GitHub Repo: " + dynamicRepoURL);
+
+        if (assistant != null)
+        {
+            assistant.ShowMessage("Launching GitHub repository...");
+        }
+
+        TriggerRobotReaction();
     }
 
     public void TriggerRobotReaction()
