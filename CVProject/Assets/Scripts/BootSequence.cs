@@ -6,9 +6,11 @@ public class BootSequence : MonoBehaviour
 {
     public TMP_Text bootText;
     public GameObject[] uiElements;
+    public AudioController audioController;
 
     IEnumerator Start()
     {
+        audioController.PlayStartup();
         foreach (GameObject obj in uiElements)
         {
             obj.SetActive(false);
