@@ -2034,7 +2034,7 @@ struct ModulusRing_t36B2B07F423E7F48C1DED40CAC3603909C4322EF  : public RuntimeOb
 	BigInteger_t890C3F24704442DA2A8C5B3F1E05E1588C7B5F08* ___mod;
 	BigInteger_t890C3F24704442DA2A8C5B3F1E05E1588C7B5F08* ___constant;
 };
-struct U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C  : public RuntimeObject
+struct U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -17823,8 +17823,6 @@ struct BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0  : public MonoBeha
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___bootText;
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___uiElements;
 	AudioController_t93B5C6941000A82E79BE883355A520ACD713583A* ___audioController;
-	ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___mObserverBehaviour;
-	bool ___hasTriggered;
 };
 struct BoundingBoxRenderer_t61FCA050F80DA1E192E3C1CF427D1A9A4FC5A767  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -22462,7 +22460,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize11934 = { sizeof(AssistantDi
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize11935;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize11935 = { sizeof(AudioController_t93B5C6941000A82E79BE883355A520ACD713583A), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize11936;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize11936 = { sizeof(U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize11936 = { sizeof(U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize11937;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize11937 = { sizeof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize11938;

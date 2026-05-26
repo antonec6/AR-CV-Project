@@ -1,10 +1,19 @@
 # ninja log v5
 149	5827	8013294603263586	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4139abeb800414ba
+7284	7621	8013294621374707	D:/Unity/AR-CV-Project/CVProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603v493x/obj/arm64-v8a/libgame.so	f0992414e17b3f5f
 93	5892	8013294604171259	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	763eaf465899d4dd
-2	5930	8013294604438839	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f08e7911f60d45a2
-210	5988	8013294605009013	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	cf341ea5f4ad06af
-66	6303	8013294608225518	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	570747f4ad70a1e7
 179	6536	8013294610645712	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	93e52a8d53c4d2df
+2	5930	8013294604438839	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f08e7911f60d45a2
+66	6303	8013294608225518	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	570747f4ad70a1e7
+210	5988	8013294605009013	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	cf341ea5f4ad06af
 120	6968	8013294614996435	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e22153a970bd1ee8
 37	7281	8013294618091362	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	3864557fa26feb74
-7284	7621	8013294621374707	D:/Unity/AR-CV-Project/CVProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603v493x/obj/arm64-v8a/libgame.so	f0992414e17b3f5f
+121	6067	8015416588192595	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	763eaf465899d4dd
+267	6762	8015416594600101	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	cf341ea5f4ad06af
+165	6943	8015416596912064	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	570747f4ad70a1e7
+357	6967	8015416597597873	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4139abeb800414ba
+80	6972	8015416598069352	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f08e7911f60d45a2
+430	7540	8015416603862249	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	93e52a8d53c4d2df
+203	7767	8015416606064497	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e22153a970bd1ee8
+35	7960	8015416607804421	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	3864557fa26feb74
+7961	8502	8015416613198923	D:/Unity/AR-CV-Project/CVProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/603v493x/obj/arm64-v8a/libgame.so	f0992414e17b3f5f

@@ -899,7 +899,6 @@ struct NativeString_t7DF2903A69BB3B47A5C95D81328646602CC4BF55;
 struct NewExpression_t71592C0B1A33F4FD5FA0283BC2657C31D95EED51;
 struct ObjectDispatcher_tEAB1C719841725D9587A7F17646D5D467D498D69;
 struct ObservationManager_t99938AFA7E9803564F4E20B3E0B9BB3B0C0E251C;
-struct ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB;
 struct ObserverFactory_t1031CA949D71FF35432A6458D547D42AD1E24E5F;
 struct OcclusionCullingCommon_t2AFE7DF28379DF1255CFCC766FC1BC7B4C6E59CD;
 struct OnCullingCompleteCallback_tF06F0204B04072C0D12E8FD9B2731D24CF3F875C;
@@ -2401,7 +2400,7 @@ struct U3CGetEnumeratorU3Ed__18_t3D21A238B89B6FD7744E0134E66ECABD75C6A036  : pub
 	BlockExpressionList_tAD63753518FCCFDCA26EE51E2C0CAD1BF05C4759* ___U3CU3E4__this;
 	int32_t ___U3CiU3E5__2;
 };
-struct U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C  : public RuntimeObject
+struct U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -29349,8 +29348,6 @@ struct BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0  : public MonoBeha
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___bootText;
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___uiElements;
 	AudioController_t93B5C6941000A82E79BE883355A520ACD713583A* ___audioController;
-	ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___mObserverBehaviour;
-	bool ___hasTriggered;
 };
 struct CameraController_t7E0AA7DC0B482A31CC3D60F6032912FE8B581DA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -39541,10 +39538,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11935[4] =
 	static_cast<int32_t>(offsetof(AudioController_t93B5C6941000A82E79BE883355A520ACD713583A, ___audioSource)),static_cast<int32_t>(offsetof(AudioController_t93B5C6941000A82E79BE883355A520ACD713583A, ___uiClick)),static_cast<int32_t>(offsetof(AudioController_t93B5C6941000A82E79BE883355A520ACD713583A, ___startupSound)),static_cast<int32_t>(offsetof(AudioController_t93B5C6941000A82E79BE883355A520ACD713583A, ___typingSound)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11936[5] = 
 {
-	static_cast<int32_t>(offsetof(U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C, ___U3CU3E7__wrap1)),static_cast<int32_t>(offsetof(U3CRunSequenceU3Ed__8_tEA5840D5169CE293E99C931F5AA76AFA8694713C, ___U3CU3E7__wrap2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11937[5] = 
+	static_cast<int32_t>(offsetof(U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2, ___U3CU3E7__wrap1)),static_cast<int32_t>(offsetof(U3CStartU3Ed__3_tCD5825F7117649474D5E10A3795ABB632838EEA2, ___U3CU3E7__wrap2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11937[3] = 
 {
-	static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___bootText)),static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___uiElements)),static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___audioController)),static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___mObserverBehaviour)),static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___hasTriggered)),};
+	static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___bootText)),static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___uiElements)),static_cast<int32_t>(offsetof(BootSequence_t030BFF28D1084DA7FD4A8A299893BB2257C6ACC0, ___audioController)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11938[5] = 
 {
 	static_cast<int32_t>(offsetof(HologramAnimation_t890BDB6C37246492508FB88182572027C92BAD74, ___amplitude)),static_cast<int32_t>(offsetof(HologramAnimation_t890BDB6C37246492508FB88182572027C92BAD74, ___frequency)),static_cast<int32_t>(offsetof(HologramAnimation_t890BDB6C37246492508FB88182572027C92BAD74, ___introSpeed)),static_cast<int32_t>(offsetof(HologramAnimation_t890BDB6C37246492508FB88182572027C92BAD74, ___startPos)),static_cast<int32_t>(offsetof(HologramAnimation_t890BDB6C37246492508FB88182572027C92BAD74, ___targetScale)),};
