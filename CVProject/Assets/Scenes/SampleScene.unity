@@ -631,6 +631,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1831634678}
+        m_TargetAssemblyTypeName: ProjectLinkOpener, Assembly-CSharp
+        m_MethodName: TriggerRobotReaction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66004699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1485,6 +1497,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1831634678}
+        m_TargetAssemblyTypeName: ProjectLinkOpener, Assembly-CSharp
+        m_MethodName: TriggerRobotReaction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &220241947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1955,7 +1979,7 @@ Transform:
   m_GameObject: {fileID: 419995345}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.05, z: 0}
+  m_LocalPosition: {x: 0.008, y: 0.2, z: 0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2385,7 +2409,7 @@ Transform:
   m_GameObject: {fileID: 815615278}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalPosition: {x: -0.008, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2627,6 +2651,18 @@ MonoBehaviour:
       - m_Target: {fileID: 837084435}
         m_TargetAssemblyTypeName: AudioController, Assembly-CSharp
         m_MethodName: PlayTyping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831634678}
+        m_TargetAssemblyTypeName: ProjectLinkOpener, Assembly-CSharp
+        m_MethodName: TriggerRobotReaction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2983,7 +3019,7 @@ Transform:
   m_GameObject: {fileID: 949066573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.026, y: 0.139, z: -0.057}
+  m_LocalPosition: {x: 0.019, y: 0.2, z: -0.039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3273,7 +3309,7 @@ Transform:
   m_GameObject: {fileID: 1142179030}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.05, z: 0}
+  m_LocalPosition: {x: 0.021, y: 0.2, z: -0.015}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3366,7 +3402,7 @@ Transform:
   m_GameObject: {fileID: 1269038231}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalPosition: {x: -0.006, y: 0.2, z: 0.003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3709,6 +3745,18 @@ MonoBehaviour:
       - m_Target: {fileID: 837084435}
         m_TargetAssemblyTypeName: AudioController, Assembly-CSharp
         m_MethodName: PlayTyping
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1831634678}
+        m_TargetAssemblyTypeName: ProjectLinkOpener, Assembly-CSharp
+        m_MethodName: TriggerRobotReaction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4819,14 +4867,18 @@ MonoBehaviour:
   bootText: {fileID: 53310167}
   uiElements:
   - {fileID: 65486763}
+  - {fileID: 2045349558}
+  - {fileID: 63611377}
   - {fileID: 2128051711}
-  - {fileID: 1269038231}
-  - {fileID: 2145147858}
-  - {fileID: 419995345}
-  - {fileID: 815615278}
-  - {fileID: 949066573}
-  - {fileID: 1142179030}
-  - {fileID: 65623900}
+  - {fileID: 1712477258}
+  - {fileID: 967751734}
+  - {fileID: 1886669873}
+  - {fileID: 599021512}
+  - {fileID: 1863789844}
+  - {fileID: 466848288}
+  - {fileID: 160215113}
+  - {fileID: 220241944}
+  - {fileID: 66004696}
   audioController: {fileID: 837084435}
 --- !u!1 &2017621294
 GameObject:
@@ -5119,7 +5171,7 @@ Transform:
   m_GameObject: {fileID: 2145147858}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalPosition: {x: -0.027, y: 0.2, z: 0.034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

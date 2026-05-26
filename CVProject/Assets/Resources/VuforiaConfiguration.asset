@@ -44,7 +44,7 @@ MonoBehaviour:
     autoStartTracker: 0
     arcoreRequirement: 0
     autoImportArcore: 0
-    thirdPartyARCoreClientDetected: 0
+    thirdPartyARCoreClientDetected: 1
   playmode:
     mRecordingPath: 
     playModeType: 0
