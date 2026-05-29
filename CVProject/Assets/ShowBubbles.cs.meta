@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 31274da99b89241409a71e7f944fa179
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - introductionBubble: {fileID: 7544088888343993594, guid: c355ec4ce1e182f4e85fef7e02db89ca, type: 3}
+  - profileBubble: {instanceID: 0}
+  - contactBubble: {instanceID: 0}
+  - skillsBubble: {instanceID: 0}
+  - languagesBubble: {instanceID: 0}
+  - hobbiesBubble: {instanceID: 0}
+  - educationBubble: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
