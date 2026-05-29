@@ -1,70 +1,3 @@
-/* using UnityEngine;
-
-public class ShowBubbles : MonoBehaviour
-{
-    public RectTransform introductionBubble;
-    public RectTransform profileBubble;
-    public RectTransform contactBubble;
-    public RectTransform skillsBubble;
-    public RectTransform languagesBubble;
-    public RectTransform hobbiesBubble;
-    public RectTransform educationBubble;
-
-    // Esta función apaga absolutamente todos los bocadillos
-    public void hideEverything()
-    {
-        if (introductionBubble != null) introductionBubble.gameObject.SetActive(false);
-        if (profileBubble != null) profileBubble.gameObject.SetActive(false);
-        if (contactBubble != null) contactBubble.gameObject.SetActive(false);
-        if (skillsBubble != null) skillsBubble.gameObject.SetActive(false);
-        if (languagesBubble != null) languagesBubble.gameObject.SetActive(false);
-        if (hobbiesBubble != null) hobbiesBubble.gameObject.SetActive(false);
-        if (educationBubble != null) educationBubble.gameObject.SetActive(false);
-    }
-
-    public void showIntroductionBubble()
-    {
-        hideEverything();
-        if (introductionBubble != null) introductionBubble.gameObject.SetActive(true);
-    }
-
-    public void showProfileBubble()
-    {
-        hideEverything();
-        if (profileBubble != null) profileBubble.gameObject.SetActive(true);
-    }
-
-    public void showContactBubble()
-    {
-        hideEverything();
-        if (contactBubble != null) contactBubble.gameObject.SetActive(true);
-    }
-
-    public void showSkillsBubble()
-    {
-        hideEverything();
-        if (skillsBubble != null) skillsBubble.gameObject.SetActive(true);
-    }
-
-    public void showLanguagesBubble()
-    {
-        hideEverything();
-        if (languagesBubble != null) languagesBubble.gameObject.SetActive(true);
-    }
-
-    public void showHobbiesBubble()
-    {
-        hideEverything();
-        if (hobbiesBubble != null) hobbiesBubble.gameObject.SetActive(true);
-    }
-
-    public void showEducationBubble()
-    {
-        hideEverything();
-        if (educationBubble != null) educationBubble.gameObject.SetActive(true);
-    }
-} */
-
 using UnityEngine;
 
 public class ShowBubbles : MonoBehaviour
@@ -116,7 +49,7 @@ public class ShowBubbles : MonoBehaviour
     {
         hideEverything();
         if (languagesBubble != null) languagesBubble.SetActive(true);
-        // if (Animator != null) Animator.Play("Nombre_Animacion_Languages");
+        if (Animator != null) Animator.Play("Speaking");
     }
 
     public void showHobbiesBubble()

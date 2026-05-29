@@ -2183,6 +2183,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856491134}
   m_CullTransparentMesh: 1
+--- !u!1 &897639131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1783833466496068785, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
+  m_PrefabInstance: {fileID: 1066129149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &897639134
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897639131}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 20a9e3cb2de10b44f8f17e825dade159, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &902739601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4558593196022300, guid: 991e8973513e2ad408232c1afeb3a9df, type: 3}
@@ -2315,7 +2342,12 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Hips'\n\tTransform 'Spine1'\n\tTransform 'Neck'\n\tTransform
+    'LeftUpLeg'\n\tTransform 'RightLeg'\n\tTransform 'LeftFoot'\n\tTransform 'RightArm'\n\tTransform
+    'LeftHand'\n\tTransform 'Spine2'\n\tTransform 'RightShoulder'\n\tand more ...\n\tFrom
+    animation clip 'mixamo.com'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -2488,15 +2520,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408117855823853067, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.841667
+      value: -0.09899999
       objectReference: {fileID: 0}
     - target: {fileID: 1408117855823853067, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -93
+      value: 15.9
       objectReference: {fileID: 0}
     - target: {fileID: 1408117855823853067, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2000
+      value: -0.002
       objectReference: {fileID: 0}
     - target: {fileID: 1408117855823853067, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2533,7 +2565,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1783833466496068785, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 897639134}
   m_SourcePrefab: {fileID: 100100000, guid: 0346ecb893ccb0e42bd4117cb3fcb52a, type: 3}
 --- !u!1 &1120032665
 GameObject:
